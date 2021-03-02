@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DriveMe" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" userLabel="mainView">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="IE7-GR-Qum" userLabel="openCompassCircle">
+                                <rect key="frame" x="25" y="40" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" systemColor="systemRedColor"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DriveMeLoadingImg" translatesAutoresizingMaskIntoConstraints="NO" id="RLt-nl-iyG" userLabel="musicArtwork">
+                                <rect key="frame" x="32" y="274" width="350" height="350"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8oB-Dc-xEq" userLabel="songTitle">
+                                <rect key="frame" x="0.0" y="152" width="414" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nAF-4X-J64" userLabel="artist">
+                                <rect key="frame" x="0.0" y="207" width="414" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="N" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ITL-mC-6Hx" userLabel="label">
+                                <rect key="frame" x="25" y="40" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gGO-kW-XcX" userLabel="directionView">
+                                <rect key="frame" x="32" y="274" width="350" height="350"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="arrow.up.right.diamond" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Sxe-xd-pzV" userLabel="right">
+                                <rect key="frame" x="72" y="313" width="270" height="270"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="arrow.up.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Sjx-VO-etG" userLabel="straight">
+                                <rect key="frame" x="72" y="313" width="270" height="270"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.86274509803921573" green="0.0039215686274509803" blue="0.0039215686274509803" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="0.86274509799999999" green="0.0039215686269999999" blue="0.0039215686269999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="View" destination="8bC-Xf-vdC" id="iTw-vC-iJN"/>
+                        <outlet property="artist" destination="nAF-4X-J64" id="oo9-QR-wEj"/>
+                        <outlet property="directionView" destination="gGO-kW-XcX" id="AGu-uq-qRs"/>
+                        <outlet property="label" destination="ITL-mC-6Hx" id="cNb-wi-qsG"/>
+                        <outlet property="mainView" destination="8bC-Xf-vdC" id="Nlg-id-ufx"/>
+                        <outlet property="musicArtwork" destination="RLt-nl-iyG" id="GbS-Nt-TTS"/>
+                        <outlet property="openCompassCircle" destination="IE7-GR-Qum" id="6VE-5G-J9Q"/>
+                        <outlet property="right" destination="Sxe-xd-pzV" id="xa6-Cb-Uez"/>
+                        <outlet property="songTitle" destination="8oB-Dc-xEq" id="Pg3-X8-msg"/>
+                        <outlet property="straight" destination="Sjx-VO-etG" id="vR8-MQ-kJe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="114.50892857142857"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="DriveMeLoadingImg" width="125" height="125"/>
+        <image name="arrow.up.circle" catalog="system" width="128" height="121"/>
+        <image name="arrow.up.right.diamond" catalog="system" width="128" height="122"/>
+        <image name="circle" catalog="system" width="128" height="121"/>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
